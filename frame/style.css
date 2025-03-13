@@ -12,54 +12,36 @@ body{
     width: 100vw;
     scroll-snap-type: y mandatory; /* Activa el scroll snapping vertical */
     overflow-y: scroll; /* Habilita el scroll vertical */
-    
+    font-size: 35px;
 }
-#first{
+.one{
     scroll-snap-align: start;
     flex: 1;
     height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
-#first-up{
+.up{
     flex: 1;
+    margin-left: 5%;
 }
-#first-middle{
+.middle{
     flex: 1;
-}
-#first-down{
-    flex: 1;
-}
-#second{
-    scroll-snap-align: start;
-    flex: 1;
-    height: 100vh;
     display: flex;
-    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
 }
-#second-up{
+.down{
     flex: 1;
+    align-self: flex-end;
+    margin-right: 5%;
 }
-#second-middle{
-    flex: 1;
-}
-#second-down{
+
+.middle-left, .middle-center, .middle-right{
     flex: 1;
 }
 
-#third{
-    scroll-snap-align: start;
-    flex: 1;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-#third-up{
-    flex: 1;
-}
-#third-middle{
-    flex: 1;
-}
-#third-down{
-    flex: 1;
+img{
+    max-height: 275px;
 }
