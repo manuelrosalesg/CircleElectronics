@@ -11,6 +11,7 @@ body, html{
     min-width: 900px;
     overflow-x: hidden;
     overflow-y: hidden;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #black-box {
     position: absolute;
@@ -21,6 +22,9 @@ body, html{
     width: 200px;
     height: 200px;
     color: #f6f2e9;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
 }
 
 #content{
